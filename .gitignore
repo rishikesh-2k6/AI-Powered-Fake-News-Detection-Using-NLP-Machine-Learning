@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data — large dataset files are not committed
+data/*.csv
+!data/.gitkeep
+
+# Trained model artifacts (regenerate with `python -m src.train`)
+models/*.joblib
+!models/.gitkeep
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
